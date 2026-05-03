@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(Q.12)Increase Box size when the Mouse Hovers()</title>
+</head>
+<body>
+    <div id="box" style="width: 100px; height: 100px; background-color: lightcoral;"></div>
+
+    <script>
+        const box = document.getElementById('box');
+
+        box.addEventListener('mouseover', () => {
+            box.style.width = '150px';
+            box.style.height = '150px';
+        });
+
+        box.addEventListener('mouseout', () => {
+            box.style.width = '100px';
+            box.style.height = '100px';
+        });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide a paragraph on click</title>
+</head>
+<body>
+    <p id="myParagraph">This is a paragraph that will be hidden.</p>
+    <button onclick="hideParagraph()">Click me!</button>
+
+    <script>
+        function hideParagraph() {
+            document.getElementById("myParagraph").style.display = "none";
+        }
+    </script>
+</body>
+</html>

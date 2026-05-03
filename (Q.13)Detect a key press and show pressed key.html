@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(Q.13)Detect a key press and show pressed key</title>
+</head>
+<body>
+    <input type="text" id="keyInput" onkeydown="showPressedKey(event)" placeholder="Press any Random key">
+
+    <script>
+        function showPressedKey(event) {
+            alert("You pressed: " + event.key);
+        }
+    </script>
+    
+</body>
+</html>
