@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(Q.5)Return Create Function</title>
+</head>
+<body>
+    <script>
+        function countVowels(str) {
+            var count = 0;
+            for (var i = 0; i < str.length; i++) {
+                if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u') {
+                    count += 1;
+                }
+            }
+            return count;
+        }
+        var count = countVowels('hello world');
+        console.log(count);
+    </script>
+    
+</body>
+</html>

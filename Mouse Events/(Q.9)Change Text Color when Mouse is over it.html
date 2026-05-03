@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(Q.9)Change Text Color when Mouse is over it</title>
+</head>
+<body>
+    <p id="text">Hover over this text to change its color.</p>
+
+    <script>
+        var text = document.getElementById("text");
+        text.addEventListener("mouseenter", function() {
+            text.style.color = "blue";
+        });
+        text.addEventListener("mouseleave", function() {
+            text.style.color = "black";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(Q.5)Create an input to show typed text below</title>
+</head>
+<body>
+    <input type="text" id="textInput" oninput="showText()">
+    <p id="displayText"></p>
+
+    <script>
+        function showText() {
+            var input = document.getElementById("textInput").value;
+            document.getElementById("displayText").innerText = input;
+        }
+    </script>
+</body>
+</html>
